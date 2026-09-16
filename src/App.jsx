@@ -121,7 +121,7 @@ function App() {
             <div className="absolute w-[220px] h-[220px] sm:w-[280px] sm:h-[280px] md:w-[340px] md:h-[340px] lg:w-[410px] lg:h-[410px] rounded-full border border-purple-500/30"></div>
 
             <img
-              className="relative z-10 w-[220px] sm:w-[280px] md:w-[350px] lg:w-[430px] hover:scale-105 duration-500"
+              className="relative z-10 h-[550px] w-[100px] sm:w-[280px] md:w-[350px] lg:w-[500px] hover:scale-105 duration-500"
               src={home}
               alt="Shruti - Full Stack Web Developer"
             />
