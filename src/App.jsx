@@ -828,7 +828,7 @@ function App() {
                     }`}
                   >
 
-                    <a href="https://github.com/shrutidhanani59-sketch/Weather-App"> GitHub </a>
+                   Github
                     
                   </button>
                 </div>
