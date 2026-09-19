@@ -8,6 +8,16 @@ import bootstrap from "./assets/Bootstrap-logo.png";
 import tailwind from "./assets/TailwindCSS-logo.png";
 import react from "./assets/React-logo.png";
 import resume from './assets/Shruti-Resume.pdf'
+import certificate1 from './assets/certificate1.png'
+import certificate2 from './assets/certificate2.png'
+import certificate3 from './assets/certificate3.png'
+import project1 from './assets/project1.png'
+import project2 from './assets/project2.png'
+import project3 from './assets/project3.png'
+import project4 from './assets/project4.png'
+import project5 from './assets/project5.png'
+import project6 from './assets/project6.png'
+
 import { useState } from "react";
 
 function App() {
@@ -766,7 +776,8 @@ function App() {
             >
               <div className="h-[210px] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=900&q=80"
+
+                  src={project1}
                   alt="Weather App"
                   className="w-full h-full object-cover group-hover:scale-110 duration-500"
                 />
@@ -778,7 +789,7 @@ function App() {
                 </p>
 
                 <h2 className="text-2xl font-bold mt-2">
-                  Weather App
+                  Headphone Website
                 </h2>
 
                 <p
@@ -816,7 +827,9 @@ function App() {
                         : "border-gray-300"
                     }`}
                   >
-                    GitHub
+
+                    <a href="https://github.com/shrutidhanani59-sketch/Weather-App"> GitHub </a>
+                    
                   </button>
                 </div>
               </div>
@@ -833,7 +846,8 @@ function App() {
             >
               <div className="h-[210px] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=900&q=80"
+                                   src={project2}
+
                   alt="E-Commerce Website"
                   className="w-full h-full object-cover group-hover:scale-110 duration-500"
                 />
@@ -845,7 +859,7 @@ function App() {
                 </p>
 
                 <h2 className="text-2xl font-bold mt-2">
-                  E-Commerce Website
+                  Cake Website
                 </h2>
 
                 <p
@@ -900,7 +914,8 @@ function App() {
             >
               <div className="h-[210px] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+                                    src={project3}
+
                   alt="Quiz App"
                   className="w-full h-full object-cover group-hover:scale-110 duration-500"
                 />
@@ -912,7 +927,7 @@ function App() {
                 </p>
 
                 <h2 className="text-2xl font-bold mt-2">
-                  Quiz App
+                  Plant Website
                 </h2>
 
                 <p
@@ -967,7 +982,8 @@ function App() {
             >
               <div className="h-[210px] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=900&q=80"
+                                    src={project4}
+
                   alt="Task Manager"
                   className="w-full h-full object-cover group-hover:scale-110 duration-500"
                 />
@@ -975,11 +991,11 @@ function App() {
 
               <div className="p-6">
                 <p className="text-purple-400 text-sm">
-                  React Project
+                  JavaScript Project
                 </p>
 
                 <h2 className="text-2xl font-bold mt-2">
-                  Task Manager
+                 Food Website
                 </h2>
 
                 <p
@@ -1030,7 +1046,8 @@ function App() {
             >
               <div className="h-[210px] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+                                   src={project5}
+
                   alt="FoodieHub"
                   className="w-full h-full object-cover group-hover:scale-110 duration-500"
                 />
@@ -1038,11 +1055,11 @@ function App() {
 
               <div className="p-6">
                 <p className="text-purple-400 text-sm">
-                  Restaurant Website
+                  Html Css 
                 </p>
 
                 <h2 className="text-2xl font-bold mt-2">
-                  FoodieHub
+                  Watch Website
                 </h2>
 
                 <p
@@ -1093,7 +1110,8 @@ function App() {
             >
               <div className="h-[210px] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=900&q=80"
+                                    src={project6}
+
                   alt="Portfolio Website"
                   className="w-full h-full object-cover group-hover:scale-110 duration-500"
                 />
@@ -1101,11 +1119,11 @@ function App() {
 
               <div className="p-6">
                 <p className="text-purple-400 text-sm">
-                  React Project
+                Tailwind Project
                 </p>
 
                 <h2 className="text-2xl font-bold mt-2">
-                  Portfolio Website
+                  Rubans Website
                 </h2>
 
                 <p
@@ -1195,8 +1213,8 @@ function App() {
                 }`}
               >
                 <img
-                  src="https://images.unsplash.com/photo-1589330694653-ded6df03f754?auto=format&fit=crop&w=900&q=80"
-                  alt="Full Stack Web Development Certificate"
+                  src={certificate1}
+                  alt="Foundations of IT Infrastructure Free Course Certificate"
                   className="w-full h-full object-cover group-hover:scale-105 duration-500"
                 />
               </div>
@@ -1209,7 +1227,7 @@ function App() {
                 </div>
 
                 <h2 className="text-xl font-bold mt-5">
-                  Full Stack Web Development
+                  Foundations of IT Infrastructure Free Course
                 </h2>
 
                 <p className="text-gray-500 text-sm mt-2">
@@ -1217,7 +1235,8 @@ function App() {
                 </p>
 
                 <button className="mt-5 px-5 py-2 rounded-full border border-purple-500 text-purple-400 hover:bg-purple-700 hover:text-white duration-300">
-                  View Certificate
+                  <a href="https://drive.google.com/drive/folders/1JUMVVyS8378YFUiH0CwwQaPpBsRC-aAg"> View Certificate</a>
+
                 </button>
               </div>
             </div>
@@ -1237,8 +1256,8 @@ function App() {
                 }`}
               >
                 <img
-                  src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=900&q=80"
-                  alt="JavaScript Certificate"
+                  src={certificate2}
+                  alt="Full Stack Development With MEARN  Certificate"
                   className="w-full h-full object-cover group-hover:scale-105 duration-500"
                 />
               </div>
@@ -1251,7 +1270,7 @@ function App() {
                 </div>
 
                 <h2 className="text-xl font-bold mt-5">
-                  JavaScript Development
+                  Full Stack Development With MEARN 
                 </h2>
 
                 <p className="text-gray-500 text-sm mt-2">
@@ -1259,7 +1278,7 @@ function App() {
                 </p>
 
                 <button className="mt-5 px-5 py-2 rounded-full border border-purple-500 text-purple-400 hover:bg-purple-700 hover:text-white duration-300">
-                  View Certificate
+                  <a href="https://drive.google.com/drive/folders/1MuwUcI-Lg07TxOt3pdYnpC7qHMvT1_0p">View Certificate</a>
                 </button>
               </div>
             </div>
@@ -1279,8 +1298,8 @@ function App() {
                 }`}
               >
                 <img
-                  src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=900&q=80"
-                  alt="React Certificate"
+                  src={certificate3}
+                  alt="Digital Security Fundamentals Certificate"
                   className="w-full h-full object-cover group-hover:scale-105 duration-500"
                 />
               </div>
@@ -1293,7 +1312,7 @@ function App() {
                 </div>
 
                 <h2 className="text-xl font-bold mt-5">
-                  React Development
+                 Digital Security Fundamentals
                 </h2>
 
                 <p className="text-gray-500 text-sm mt-2">
@@ -1301,8 +1320,8 @@ function App() {
                 </p>
 
                 <button className="mt-5 px-5 py-2 rounded-full border border-purple-500 text-purple-400 hover:bg-purple-700 hover:text-white duration-300">
-                  View Certificate
-                </button>
+                  <a href="https://drive.google.com/drive/folders/1Q7GxO-0zdy8OEj8t3Wxq-eBxr6yM5tmM"> View Certificate</a>
+                  </button>
               </div>
             </div>
           </div>
