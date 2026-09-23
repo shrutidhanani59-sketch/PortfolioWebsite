@@ -26,20 +26,18 @@ function App() {
   return (
     <>
       <div
-        className={`wrapper min-h-screen duration-500 ${
-          darkMode
+        className={`wrapper min-h-screen duration-500 ${darkMode
             ? "bg-[#070b17] text-white"
             : "bg-gray-50 text-gray-900"
-        }`}
+          }`}
       >
 
         <section className="NavBar">
           <div
-            className={`nav flex items-center justify-between shadow-md px-4 md:px-8 py-3 fixed top-0 left-0 z-50 w-full duration-500 ${
-              darkMode
+            className={`nav flex items-center justify-between shadow-md px-4 md:px-8 py-3 fixed top-0 left-0 z-50 w-full duration-500 ${darkMode
                 ? "bg-[#070b17] text-white shadow-gray-800"
                 : "bg-white text-gray-900 shadow-gray-300"
-            }`}
+              }`}
           >
             {/* Logo */}
 
@@ -95,11 +93,10 @@ function App() {
 
               <button
                 onClick={() => setDarkMode(!darkMode)}
-                className={`w-10 h-10 rounded-full flex items-center justify-center border duration-300 hover:scale-110 ${
-                  darkMode
+                className={`w-10 h-10 rounded-full flex items-center justify-center border duration-300 hover:scale-110 ${darkMode
                     ? "border-gray-600 bg-gray-800 hover:bg-gray-700"
                     : "border-gray-300 bg-gray-100 hover:bg-gray-200"
-                }`}
+                  }`}
               >
                 {darkMode ? (
                   <i className="fa-solid fa-sun text-yellow-400"></i>
@@ -167,9 +164,8 @@ function App() {
             </h2>
 
             <p
-              className={`text-sm sm:text-base leading-7 mt-6 max-w-[600px] mx-auto lg:mx-0 ${
-                darkMode ? "text-gray-400" : "text-gray-600"
-              }`}
+              className={`text-sm sm:text-base leading-7 mt-6 max-w-[600px] mx-auto lg:mx-0 ${darkMode ? "text-gray-400" : "text-gray-600"
+                }`}
             >
               I create modern, responsive and user-friendly web applications
               using React, JavaScript and Tailwind CSS. I enjoy turning
@@ -188,15 +184,15 @@ function App() {
               </a>
 
               <a
-  href={resume}
-  target="_blank"
-  rel="noreferrer"
-  className="px-7 py-3 rounded-full border border-purple-500/50 text-purple-400 hover:bg-purple-700/20 hover:border-purple-400 hover:scale-105 duration-300"
->
-  View Resume
+                href={resume}
+                target="_blank"
+                rel="noreferrer"
+                className="px-7 py-3 rounded-full border border-purple-500/50 text-purple-400 hover:bg-purple-700/20 hover:border-purple-400 hover:scale-105 duration-300"
+              >
+                View Resume
 
-  <i className="fa-solid fa-file-pdf ml-2"></i>
-</a>
+                <i className="fa-solid fa-file-pdf ml-2"></i>
+              </a>
             </div>
 
             {/* Stats */}
@@ -265,29 +261,26 @@ function App() {
                 href="https://github.com/"
                 target="_blank"
                 rel="noreferrer"
-                className={`w-10 h-10 rounded-full border flex items-center justify-center hover:bg-purple-700 hover:border-purple-500 duration-300 ${
-                  darkMode ? "border-gray-700" : "border-gray-300"
-                }`}
+                className={`w-10 h-10 rounded-full border flex items-center justify-center hover:bg-purple-700 hover:border-purple-500 duration-300 ${darkMode ? "border-gray-700" : "border-gray-300"
+                  }`}
               >
                 <i className="fa-brands fa-github"></i>
               </a>
 
               <a
-                href="https://linkedin.com/"
+                href="https://www.linkedin.com/in/shruti-dhanani-0bb5413a7/"
                 target="_blank"
                 rel="noreferrer"
-                className={`w-10 h-10 rounded-full border flex items-center justify-center hover:bg-purple-700 hover:border-purple-500 duration-300 ${
-                  darkMode ? "border-gray-700" : "border-gray-300"
-                }`}
+                className={`w-10 h-10 rounded-full border flex items-center justify-center hover:bg-purple-700 hover:border-purple-500 duration-300 ${darkMode ? "border-gray-700" : "border-gray-300"
+                  }`}
               >
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
 
               <a
                 href="#"
-                className={`w-10 h-10 rounded-full border flex items-center justify-center hover:bg-purple-700 hover:border-purple-500 duration-300 ${
-                  darkMode ? "border-gray-700" : "border-gray-300"
-                }`}
+                className={`w-10 h-10 rounded-full border flex items-center justify-center hover:bg-purple-700 hover:border-purple-500 duration-300 ${darkMode ? "border-gray-700" : "border-gray-300"
+                  }`}
               >
                 <i className="fa-brands fa-instagram"></i>
               </a>
@@ -335,9 +328,8 @@ function App() {
             </h2>
 
             <p
-              className={`text-sm sm:text-base leading-7 mt-6 max-w-[580px] mx-auto lg:mx-0 ${
-                darkMode ? "text-gray-400" : "text-gray-600"
-              }`}
+              className={`text-sm sm:text-base leading-7 mt-6 max-w-[580px] mx-auto lg:mx-0 ${darkMode ? "text-gray-400" : "text-gray-600"
+                }`}
             >
               I am a passionate and creative Full Stack Web Developer who
               enjoys building modern, responsive, and user-friendly web
@@ -346,9 +338,8 @@ function App() {
             </p>
 
             <p
-              className={`text-sm sm:text-base leading-7 mt-4 max-w-[580px] mx-auto lg:mx-0 ${
-                darkMode ? "text-gray-400" : "text-gray-600"
-              }`}
+              className={`text-sm sm:text-base leading-7 mt-4 max-w-[580px] mx-auto lg:mx-0 ${darkMode ? "text-gray-400" : "text-gray-600"
+                }`}
             >
               I work with HTML, CSS, JavaScript, React and Tailwind CSS. As a
               fresher, I am continuously learning new technologies, improving
@@ -361,11 +352,10 @@ function App() {
               {/* Card 1 */}
 
               <div
-                className={`group p-4 rounded-2xl border backdrop-blur-sm hover:border-purple-500 hover:-translate-y-1 duration-300 ${
-                  darkMode
+                className={`group p-4 rounded-2xl border backdrop-blur-sm hover:border-purple-500 hover:-translate-y-1 duration-300 ${darkMode
                     ? "border-gray-700 bg-[#111427]/80"
                     : "border-gray-200 bg-white shadow-md"
-                }`}
+                  }`}
               >
                 <div className="flex items-center gap-3">
                   <div className="w-11 h-11 rounded-xl bg-purple-600/20 flex items-center justify-center">
@@ -384,11 +374,10 @@ function App() {
               {/* Card 2 */}
 
               <div
-                className={`group p-4 rounded-2xl border backdrop-blur-sm hover:border-purple-500 hover:-translate-y-1 duration-300 ${
-                  darkMode
+                className={`group p-4 rounded-2xl border backdrop-blur-sm hover:border-purple-500 hover:-translate-y-1 duration-300 ${darkMode
                     ? "border-gray-700 bg-[#111427]/80"
                     : "border-gray-200 bg-white shadow-md"
-                }`}
+                  }`}
               >
                 <div className="flex items-center gap-3">
                   <div className="w-11 h-11 rounded-xl bg-purple-600/20 flex items-center justify-center">
@@ -410,11 +399,10 @@ function App() {
               {/* Card 3 */}
 
               <div
-                className={`group p-4 rounded-2xl border backdrop-blur-sm hover:border-purple-500 hover:-translate-y-1 duration-300 ${
-                  darkMode
+                className={`group p-4 rounded-2xl border backdrop-blur-sm hover:border-purple-500 hover:-translate-y-1 duration-300 ${darkMode
                     ? "border-gray-700 bg-[#111427]/80"
                     : "border-gray-200 bg-white shadow-md"
-                }`}
+                  }`}
               >
                 <div className="flex items-center gap-3">
                   <div className="w-11 h-11 rounded-xl bg-purple-600/20 flex items-center justify-center">
@@ -434,11 +422,10 @@ function App() {
               {/* Card 4 */}
 
               <div
-                className={`group p-4 rounded-2xl border backdrop-blur-sm hover:border-purple-500 hover:-translate-y-1 duration-300 ${
-                  darkMode
+                className={`group p-4 rounded-2xl border backdrop-blur-sm hover:border-purple-500 hover:-translate-y-1 duration-300 ${darkMode
                     ? "border-gray-700 bg-[#111427]/80"
                     : "border-gray-200 bg-white shadow-md"
-                }`}
+                  }`}
               >
                 <div className="flex items-center gap-3">
                   <div className="w-11 h-11 rounded-xl bg-purple-600/20 flex items-center justify-center">
@@ -504,11 +491,10 @@ function App() {
             <div className="absolute w-[280px] h-[350px] sm:w-[350px] sm:h-[430px] bg-purple-600/20 blur-[70px] rounded-full"></div>
 
             <div
-              className={`relative p-3 rounded-[40px] border backdrop-blur-sm ${
-                darkMode
+              className={`relative p-3 rounded-[40px] border backdrop-blur-sm ${darkMode
                   ? "border-purple-500/30 bg-white/5"
                   : "border-purple-200 bg-white shadow-xl"
-              }`}
+                }`}
             >
               <img
                 className="w-[250px] sm:w-[320px] md:w-[380px] lg:w-[420px] rounded-[32px] hover:scale-105 duration-500"
@@ -520,11 +506,10 @@ function App() {
             {/* Badge */}
 
             <div
-              className={`absolute -bottom-5 -right-2 sm:right-0 border rounded-2xl px-5 py-3 shadow-xl ${
-                darkMode
+              className={`absolute -bottom-5 -right-2 sm:right-0 border rounded-2xl px-5 py-3 shadow-xl ${darkMode
                   ? "bg-[#111427] border-purple-500/40"
                   : "bg-white border-purple-200"
-              }`}
+                }`}
             >
               <p className="text-purple-400 text-xs">Currently</p>
 
@@ -553,9 +538,8 @@ function App() {
           </h1>
 
           <p
-            className={`text-center mt-5 text-sm ${
-              darkMode ? "text-gray-400" : "text-gray-600"
-            }`}
+            className={`text-center mt-5 text-sm ${darkMode ? "text-gray-400" : "text-gray-600"
+              }`}
           >
             Technologies I use to build modern and responsive web
             applications.
@@ -565,11 +549,10 @@ function App() {
             {/* HTML */}
 
             <div
-              className={`border p-6 rounded-2xl text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${
-                darkMode
+              className={`border p-6 rounded-2xl text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${darkMode
                   ? "border-gray-700 bg-[#111427]"
                   : "border-gray-200 bg-white shadow-md"
-              }`}
+                }`}
             >
               <div className="flex justify-center">
                 <img className="h-20" src={html} alt="HTML" />
@@ -580,9 +563,8 @@ function App() {
               <p className="text-purple-400 mt-2">95%</p>
 
               <div
-                className={`w-full rounded-full h-2 mt-3 ${
-                  darkMode ? "bg-gray-700" : "bg-gray-200"
-                }`}
+                className={`w-full rounded-full h-2 mt-3 ${darkMode ? "bg-gray-700" : "bg-gray-200"
+                  }`}
               >
                 <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 h-2 rounded-full w-[95%]"></div>
               </div>
@@ -591,11 +573,10 @@ function App() {
             {/* CSS */}
 
             <div
-              className={`border p-6 rounded-2xl text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${
-                darkMode
+              className={`border p-6 rounded-2xl text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${darkMode
                   ? "border-gray-700 bg-[#111427]"
                   : "border-gray-200 bg-white shadow-md"
-              }`}
+                }`}
             >
               <div className="flex justify-center">
                 <img className="h-20" src={css} alt="CSS" />
@@ -606,9 +587,8 @@ function App() {
               <p className="text-purple-400 mt-2">95%</p>
 
               <div
-                className={`w-full rounded-full h-2 mt-3 ${
-                  darkMode ? "bg-gray-700" : "bg-gray-200"
-                }`}
+                className={`w-full rounded-full h-2 mt-3 ${darkMode ? "bg-gray-700" : "bg-gray-200"
+                  }`}
               >
                 <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 h-2 rounded-full w-[95%]"></div>
               </div>
@@ -617,11 +597,10 @@ function App() {
             {/* JavaScript */}
 
             <div
-              className={`border p-6 rounded-2xl text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${
-                darkMode
+              className={`border p-6 rounded-2xl text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${darkMode
                   ? "border-gray-700 bg-[#111427]"
                   : "border-gray-200 bg-white shadow-md"
-              }`}
+                }`}
             >
               <div className="flex justify-center">
                 <img className="h-20" src={js} alt="JavaScript" />
@@ -634,9 +613,8 @@ function App() {
               <p className="text-purple-400 mt-2">84%</p>
 
               <div
-                className={`w-full rounded-full h-2 mt-3 ${
-                  darkMode ? "bg-gray-700" : "bg-gray-200"
-                }`}
+                className={`w-full rounded-full h-2 mt-3 ${darkMode ? "bg-gray-700" : "bg-gray-200"
+                  }`}
               >
                 <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 h-2 rounded-full w-[84%]"></div>
               </div>
@@ -645,11 +623,10 @@ function App() {
             {/* Bootstrap */}
 
             <div
-              className={`border p-6 rounded-2xl text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${
-                darkMode
+              className={`border p-6 rounded-2xl text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${darkMode
                   ? "border-gray-700 bg-[#111427]"
                   : "border-gray-200 bg-white shadow-md"
-              }`}
+                }`}
             >
               <div className="flex justify-center">
                 <img
@@ -666,9 +643,8 @@ function App() {
               <p className="text-purple-400 mt-2">80%</p>
 
               <div
-                className={`w-full rounded-full h-2 mt-3 ${
-                  darkMode ? "bg-gray-700" : "bg-gray-200"
-                }`}
+                className={`w-full rounded-full h-2 mt-3 ${darkMode ? "bg-gray-700" : "bg-gray-200"
+                  }`}
               >
                 <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 h-2 rounded-full w-[80%]"></div>
               </div>
@@ -677,11 +653,10 @@ function App() {
             {/* Tailwind */}
 
             <div
-              className={`border p-6 rounded-2xl text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${
-                darkMode
+              className={`border p-6 rounded-2xl text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${darkMode
                   ? "border-gray-700 bg-[#111427]"
                   : "border-gray-200 bg-white shadow-md"
-              }`}
+                }`}
             >
               <div className="flex justify-center">
                 <img
@@ -698,9 +673,8 @@ function App() {
               <p className="text-purple-400 mt-2">95%</p>
 
               <div
-                className={`w-full rounded-full h-2 mt-3 ${
-                  darkMode ? "bg-gray-700" : "bg-gray-200"
-                }`}
+                className={`w-full rounded-full h-2 mt-3 ${darkMode ? "bg-gray-700" : "bg-gray-200"
+                  }`}
               >
                 <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 h-2 rounded-full w-[95%]"></div>
               </div>
@@ -709,11 +683,10 @@ function App() {
             {/* React */}
 
             <div
-              className={`border p-6 rounded-2xl text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${
-                darkMode
+              className={`border p-6 rounded-2xl text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${darkMode
                   ? "border-gray-700 bg-[#111427]"
                   : "border-gray-200 bg-white shadow-md"
-              }`}
+                }`}
             >
               <div className="flex justify-center">
                 <img className="h-20" src={react} alt="React JS" />
@@ -726,9 +699,8 @@ function App() {
               <p className="text-purple-400 mt-2">50%</p>
 
               <div
-                className={`w-full rounded-full h-2 mt-3 ${
-                  darkMode ? "bg-gray-700" : "bg-gray-200"
-                }`}
+                className={`w-full rounded-full h-2 mt-3 ${darkMode ? "bg-gray-700" : "bg-gray-200"
+                  }`}
               >
                 <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 h-2 rounded-full w-[50%]"></div>
               </div>
@@ -755,9 +727,8 @@ function App() {
             </h1>
 
             <p
-              className={`text-sm mt-5 max-w-xl mx-auto ${
-                darkMode ? "text-gray-400" : "text-gray-600"
-              }`}
+              className={`text-sm mt-5 max-w-xl mx-auto ${darkMode ? "text-gray-400" : "text-gray-600"
+                }`}
             >
               Some of the projects I have created using modern web
               development technologies.
@@ -768,11 +739,10 @@ function App() {
             {/* Project 1 */}
 
             <div
-              className={`group border rounded-2xl overflow-hidden hover:border-purple-500 hover:-translate-y-2 duration-300 ${
-                darkMode
+              className={`group border rounded-2xl overflow-hidden hover:border-purple-500 hover:-translate-y-2 duration-300 ${darkMode
                   ? "border-gray-700 bg-[#111427]"
                   : "border-gray-200 bg-white shadow-md"
-              }`}
+                }`}
             >
               <div className="h-[210px] overflow-hidden">
                 <img
@@ -793,9 +763,8 @@ function App() {
                 </h2>
 
                 <p
-                  className={`text-sm leading-6 mt-3 ${
-                    darkMode ? "text-gray-400" : "text-gray-600"
-                  }`}
+                  className={`text-sm leading-6 mt-3 ${darkMode ? "text-gray-400" : "text-gray-600"
+                    }`}
                 >
                   A responsive weather application that displays
                   weather information according to the selected city.
@@ -807,7 +776,7 @@ function App() {
                   </span>
 
                   <span className="px-3 py-1 text-xs rounded-full bg-purple-500/10 text-purple-500">
-                    CSS
+                    Tailwind CSS
                   </span>
 
                   <span className="px-3 py-1 text-xs rounded-full bg-purple-500/10 text-purple-500">
@@ -821,15 +790,14 @@ function App() {
                   </button>
 
                   <button
-                    className={`px-4 py-2 rounded-full border text-sm hover:border-purple-500 hover:text-purple-400 duration-300 ${
-                      darkMode
+                    className={`px-4 py-2 rounded-full border text-sm hover:border-purple-500 hover:text-purple-400 duration-300 ${darkMode
                         ? "border-gray-600"
                         : "border-gray-300"
-                    }`}
+                      }`}
                   >
 
-                    <a href="https://github.com/shrutidhanani59-sketch/Weather-App"> GitHub </a>
-                    
+                    <a href="https://github.com/shrutidhanani59-sketch/Headphone"> GitHub </a>
+
                   </button>
                 </div>
               </div>
@@ -838,15 +806,14 @@ function App() {
             {/* Project 2 */}
 
             <div
-              className={`group border rounded-2xl overflow-hidden hover:border-purple-500 hover:-translate-y-2 duration-300 ${
-                darkMode
+              className={`group border rounded-2xl overflow-hidden hover:border-purple-500 hover:-translate-y-2 duration-300 ${darkMode
                   ? "border-gray-700 bg-[#111427]"
                   : "border-gray-200 bg-white shadow-md"
-              }`}
+                }`}
             >
               <div className="h-[210px] overflow-hidden">
                 <img
-                                   src={project2}
+                  src={project2}
 
                   alt="E-Commerce Website"
                   className="w-full h-full object-cover group-hover:scale-110 duration-500"
@@ -863,9 +830,8 @@ function App() {
                 </h2>
 
                 <p
-                  className={`text-sm leading-6 mt-3 ${
-                    darkMode ? "text-gray-400" : "text-gray-600"
-                  }`}
+                  className={`text-sm leading-6 mt-3 ${darkMode ? "text-gray-400" : "text-gray-600"
+                    }`}
                 >
                   A modern e-commerce website with products, search,
                   categories, cart and local storage functionality.
@@ -877,12 +843,10 @@ function App() {
                   </span>
 
                   <span className="px-3 py-1 text-xs rounded-full bg-purple-500/10 text-purple-500">
-                    Tailwind
+                    Tailwind CSS
                   </span>
 
-                  <span className="px-3 py-1 text-xs rounded-full bg-purple-500/10 text-purple-500">
-                    JavaScript
-                  </span>
+                  
                 </div>
 
                 <div className="flex gap-3 mt-6">
@@ -891,13 +855,12 @@ function App() {
                   </button>
 
                   <button
-                    className={`px-4 py-2 rounded-full border text-sm hover:border-purple-500 hover:text-purple-400 duration-300 ${
-                      darkMode
+                    className={`px-4 py-2 rounded-full border text-sm hover:border-purple-500 hover:text-purple-400 duration-300 ${darkMode
                         ? "border-gray-600"
                         : "border-gray-300"
-                    }`}
+                      }`}
                   >
-                    GitHub
+                    <a href="https://github.com/shrutidhanani59-sketch/cake">GitHub</a>
                   </button>
                 </div>
               </div>
@@ -906,15 +869,14 @@ function App() {
             {/* Project 3 */}
 
             <div
-              className={`group border rounded-2xl overflow-hidden hover:border-purple-500 hover:-translate-y-2 duration-300 ${
-                darkMode
+              className={`group border rounded-2xl overflow-hidden hover:border-purple-500 hover:-translate-y-2 duration-300 ${darkMode
                   ? "border-gray-700 bg-[#111427]"
                   : "border-gray-200 bg-white shadow-md"
-              }`}
+                }`}
             >
               <div className="h-[210px] overflow-hidden">
                 <img
-                                    src={project3}
+                  src={project3}
 
                   alt="Quiz App"
                   className="w-full h-full object-cover group-hover:scale-110 duration-500"
@@ -931,9 +893,8 @@ function App() {
                 </h2>
 
                 <p
-                  className={`text-sm leading-6 mt-3 ${
-                    darkMode ? "text-gray-400" : "text-gray-600"
-                  }`}
+                  className={`text-sm leading-6 mt-3 ${darkMode ? "text-gray-400" : "text-gray-600"
+                    }`}
                 >
                   An interactive quiz application with questions,
                   timer, previous, next and final result functionality.
@@ -945,7 +906,7 @@ function App() {
                   </span>
 
                   <span className="px-3 py-1 text-xs rounded-full bg-purple-500/10 text-purple-500">
-                    CSS
+                    Tailwind CSS
                   </span>
 
                   <span className="px-3 py-1 text-xs rounded-full bg-purple-500/10 text-purple-500">
@@ -959,13 +920,13 @@ function App() {
                   </button>
 
                   <button
-                    className={`px-4 py-2 rounded-full border text-sm hover:border-purple-500 hover:text-purple-400 duration-300 ${
-                      darkMode
+                    className={`px-4 py-2 rounded-full border text-sm hover:border-purple-500 hover:text-purple-400 duration-300 ${darkMode
                         ? "border-gray-600"
                         : "border-gray-300"
-                    }`}
+                      }`}
                   >
-                    GitHub
+                    <a href="https://github.com/shrutidhanani59-sketch/plant-Website">GitHub</a>
+                    
                   </button>
                 </div>
               </div>
@@ -974,15 +935,14 @@ function App() {
             {/* Project 4 */}
 
             <div
-              className={`group border rounded-2xl overflow-hidden hover:border-purple-500 hover:-translate-y-2 duration-300 ${
-                darkMode
+              className={`group border rounded-2xl overflow-hidden hover:border-purple-500 hover:-translate-y-2 duration-300 ${darkMode
                   ? "border-gray-700 bg-[#111427]"
                   : "border-gray-200 bg-white shadow-md"
-              }`}
+                }`}
             >
               <div className="h-[210px] overflow-hidden">
                 <img
-                                    src={project4}
+                  src={project4}
 
                   alt="Task Manager"
                   className="w-full h-full object-cover group-hover:scale-110 duration-500"
@@ -995,13 +955,12 @@ function App() {
                 </p>
 
                 <h2 className="text-2xl font-bold mt-2">
-                 Food Website
+                  Food Website
                 </h2>
 
                 <p
-                  className={`text-sm leading-6 mt-3 ${
-                    darkMode ? "text-gray-400" : "text-gray-600"
-                  }`}
+                  className={`text-sm leading-6 mt-3 ${darkMode ? "text-gray-400" : "text-gray-600"
+                    }`}
                 >
                   A React based task manager application for adding,
                   completing and managing daily tasks.
@@ -1009,11 +968,15 @@ function App() {
 
                 <div className="flex flex-wrap gap-2 mt-5">
                   <span className="px-3 py-1 text-xs rounded-full bg-purple-500/10 text-purple-500">
-                    React
+                    HTML
                   </span>
 
                   <span className="px-3 py-1 text-xs rounded-full bg-purple-500/10 text-purple-500">
-                    Bootstrap
+                    Tailwind CSS
+                  </span>
+
+                  <span className="px-3 py-1 text-xs rounded-full bg-purple-500/10 text-purple-500">
+                    JavaScript
                   </span>
                 </div>
 
@@ -1023,13 +986,13 @@ function App() {
                   </button>
 
                   <button
-                    className={`px-4 py-2 rounded-full border text-sm hover:border-purple-500 hover:text-purple-400 duration-300 ${
-                      darkMode
+                    className={`px-4 py-2 rounded-full border text-sm hover:border-purple-500 hover:text-purple-400 duration-300 ${darkMode
                         ? "border-gray-600"
                         : "border-gray-300"
-                    }`}
+                      }`}
                   >
-                    GitHub
+                    <a href="https://github.com/shrutidhanani59-sketch/food-Website">GitHub</a>
+                    
                   </button>
                 </div>
               </div>
@@ -1038,15 +1001,14 @@ function App() {
             {/* Project 5 */}
 
             <div
-              className={`group border rounded-2xl overflow-hidden hover:border-purple-500 hover:-translate-y-2 duration-300 ${
-                darkMode
+              className={`group border rounded-2xl overflow-hidden hover:border-purple-500 hover:-translate-y-2 duration-300 ${darkMode
                   ? "border-gray-700 bg-[#111427]"
                   : "border-gray-200 bg-white shadow-md"
-              }`}
+                }`}
             >
               <div className="h-[210px] overflow-hidden">
                 <img
-                                   src={project5}
+                  src={project5}
 
                   alt="FoodieHub"
                   className="w-full h-full object-cover group-hover:scale-110 duration-500"
@@ -1055,7 +1017,7 @@ function App() {
 
               <div className="p-6">
                 <p className="text-purple-400 text-sm">
-                  Html Css 
+                  Html Css
                 </p>
 
                 <h2 className="text-2xl font-bold mt-2">
@@ -1063,9 +1025,8 @@ function App() {
                 </h2>
 
                 <p
-                  className={`text-sm leading-6 mt-3 ${
-                    darkMode ? "text-gray-400" : "text-gray-600"
-                  }`}
+                  className={`text-sm leading-6 mt-3 ${darkMode ? "text-gray-400" : "text-gray-600"
+                    }`}
                 >
                   A modern restaurant website with food categories,
                   popular dishes, offers and an order panel.
@@ -1087,13 +1048,13 @@ function App() {
                   </button>
 
                   <button
-                    className={`px-4 py-2 rounded-full border text-sm hover:border-purple-500 hover:text-purple-400 duration-300 ${
-                      darkMode
+                    className={`px-4 py-2 rounded-full border text-sm hover:border-purple-500 hover:text-purple-400 duration-300 ${darkMode
                         ? "border-gray-600"
                         : "border-gray-300"
-                    }`}
+                      }`}
                   >
-                    GitHub
+                    <a href="https://github.com/shrutidhanani59-sketch/Titan-Watch">GitHub</a>
+                    
                   </button>
                 </div>
               </div>
@@ -1102,15 +1063,14 @@ function App() {
             {/* Project 6 */}
 
             <div
-              className={`group border rounded-2xl overflow-hidden hover:border-purple-500 hover:-translate-y-2 duration-300 ${
-                darkMode
+              className={`group border rounded-2xl overflow-hidden hover:border-purple-500 hover:-translate-y-2 duration-300 ${darkMode
                   ? "border-gray-700 bg-[#111427]"
                   : "border-gray-200 bg-white shadow-md"
-              }`}
+                }`}
             >
               <div className="h-[210px] overflow-hidden">
                 <img
-                                    src={project6}
+                  src={project6}
 
                   alt="Portfolio Website"
                   className="w-full h-full object-cover group-hover:scale-110 duration-500"
@@ -1119,7 +1079,7 @@ function App() {
 
               <div className="p-6">
                 <p className="text-purple-400 text-sm">
-                Tailwind Project
+                  Tailwind Project
                 </p>
 
                 <h2 className="text-2xl font-bold mt-2">
@@ -1127,9 +1087,8 @@ function App() {
                 </h2>
 
                 <p
-                  className={`text-sm leading-6 mt-3 ${
-                    darkMode ? "text-gray-400" : "text-gray-600"
-                  }`}
+                  className={`text-sm leading-6 mt-3 ${darkMode ? "text-gray-400" : "text-gray-600"
+                    }`}
                 >
                   A professional portfolio website showcasing my
                   skills, projects, certificates and contact information.
@@ -1151,13 +1110,12 @@ function App() {
                   </button>
 
                   <button
-                    className={`px-4 py-2 rounded-full border text-sm hover:border-purple-500 hover:text-purple-400 duration-300 ${
-                      darkMode
+                    className={`px-4 py-2 rounded-full border text-sm hover:border-purple-500 hover:text-purple-400 duration-300 ${darkMode
                         ? "border-gray-600"
                         : "border-gray-300"
-                    }`}
+                      }`}
                   >
-                    GitHub
+                   <a href=""> GitHub</a>
                   </button>
                 </div>
               </div>
@@ -1186,9 +1144,8 @@ function App() {
             </h1>
 
             <p
-              className={`text-sm mt-5 max-w-xl mx-auto ${
-                darkMode ? "text-gray-400" : "text-gray-600"
-              }`}
+              className={`text-sm mt-5 max-w-xl mx-auto ${darkMode ? "text-gray-400" : "text-gray-600"
+                }`}
             >
               Certificates and achievements that showcase my learning
               and development journey.
@@ -1201,16 +1158,14 @@ function App() {
             {/* Certificate 1 */}
 
             <div
-              className={`group border rounded-2xl p-6 text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${
-                darkMode
+              className={`group border rounded-2xl p-6 text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${darkMode
                   ? "bg-[#111427] border-gray-700"
                   : "bg-white border-gray-200 shadow-md"
-              }`}
+                }`}
             >
               <div
-                className={`w-full h-[180px] rounded-xl overflow-hidden ${
-                  darkMode ? "bg-gray-900" : "bg-gray-100"
-                }`}
+                className={`w-full h-[180px] rounded-xl overflow-hidden ${darkMode ? "bg-gray-900" : "bg-gray-100"
+                  }`}
               >
                 <img
                   src={certificate1}
@@ -1244,16 +1199,14 @@ function App() {
             {/* Certificate 2 */}
 
             <div
-              className={`group border rounded-2xl p-6 text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${
-                darkMode
+              className={`group border rounded-2xl p-6 text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${darkMode
                   ? "bg-[#111427] border-gray-700"
                   : "bg-white border-gray-200 shadow-md"
-              }`}
+                }`}
             >
               <div
-                className={`w-full h-[180px] rounded-xl overflow-hidden ${
-                  darkMode ? "bg-gray-900" : "bg-gray-100"
-                }`}
+                className={`w-full h-[180px] rounded-xl overflow-hidden ${darkMode ? "bg-gray-900" : "bg-gray-100"
+                  }`}
               >
                 <img
                   src={certificate2}
@@ -1270,7 +1223,7 @@ function App() {
                 </div>
 
                 <h2 className="text-xl font-bold mt-5">
-                  Full Stack Development With MEARN 
+                  Full Stack Development With MEARN
                 </h2>
 
                 <p className="text-gray-500 text-sm mt-2">
@@ -1286,16 +1239,14 @@ function App() {
             {/* Certificate 3 */}
 
             <div
-              className={`group border rounded-2xl p-6 text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${
-                darkMode
+              className={`group border rounded-2xl p-6 text-center hover:-translate-y-2 hover:border-purple-500 duration-300 ${darkMode
                   ? "bg-[#111427] border-gray-700"
                   : "bg-white border-gray-200 shadow-md"
-              }`}
+                }`}
             >
               <div
-                className={`w-full h-[180px] rounded-xl overflow-hidden ${
-                  darkMode ? "bg-gray-900" : "bg-gray-100"
-                }`}
+                className={`w-full h-[180px] rounded-xl overflow-hidden ${darkMode ? "bg-gray-900" : "bg-gray-100"
+                  }`}
               >
                 <img
                   src={certificate3}
@@ -1312,7 +1263,7 @@ function App() {
                 </div>
 
                 <h2 className="text-xl font-bold mt-5">
-                 Digital Security Fundamentals
+                  Digital Security Fundamentals
                 </h2>
 
                 <p className="text-gray-500 text-sm mt-2">
@@ -1321,7 +1272,7 @@ function App() {
 
                 <button className="mt-5 px-5 py-2 rounded-full border border-purple-500 text-purple-400 hover:bg-purple-700 hover:text-white duration-300">
                   <a href="https://drive.google.com/drive/folders/1Q7GxO-0zdy8OEj8t3Wxq-eBxr6yM5tmM"> View Certificate</a>
-                  </button>
+                </button>
               </div>
             </div>
           </div>
@@ -1348,9 +1299,8 @@ function App() {
             </h1>
 
             <p
-              className={`text-sm mt-5 max-w-xl mx-auto ${
-                darkMode ? "text-gray-400" : "text-gray-600"
-              }`}
+              className={`text-sm mt-5 max-w-xl mx-auto ${darkMode ? "text-gray-400" : "text-gray-600"
+                }`}
             >
               Have a project idea or want to work together? Feel free
               to reach out to me.
@@ -1363,20 +1313,18 @@ function App() {
             {/* Left */}
 
             <div
-              className={`border rounded-2xl p-8 md:p-10 ${
-                darkMode
+              className={`border rounded-2xl p-8 md:p-10 ${darkMode
                   ? "bg-[#111427] border-gray-700"
                   : "bg-white border-gray-200 shadow-md"
-              }`}
+                }`}
             >
               <h2 className="text-3xl font-bold">
                 Let's Work Together
               </h2>
 
               <p
-                className={`leading-7 mt-4 ${
-                  darkMode ? "text-gray-400" : "text-gray-600"
-                }`}
+                className={`leading-7 mt-4 ${darkMode ? "text-gray-400" : "text-gray-600"
+                  }`}
               >
                 I am always interested in new opportunities, creative
                 projects and collaborations. If you have an idea or
@@ -1440,11 +1388,10 @@ function App() {
                   href="https://github.com/"
                   target="_blank"
                   rel="noreferrer"
-                  className={`w-11 h-11 rounded-full border flex items-center justify-center hover:bg-purple-700 hover:border-purple-700 duration-300 ${
-                    darkMode
+                  className={`w-11 h-11 rounded-full border flex items-center justify-center hover:bg-purple-700 hover:border-purple-700 duration-300 ${darkMode
                       ? "border-gray-700"
                       : "border-gray-300"
-                  }`}
+                    }`}
                 >
                   <i className="fa-brands fa-github"></i>
                 </a>
@@ -1453,22 +1400,20 @@ function App() {
                   href="https://linkedin.com/"
                   target="_blank"
                   rel="noreferrer"
-                  className={`w-11 h-11 rounded-full border flex items-center justify-center hover:bg-purple-700 hover:border-purple-700 duration-300 ${
-                    darkMode
+                  className={`w-11 h-11 rounded-full border flex items-center justify-center hover:bg-purple-700 hover:border-purple-700 duration-300 ${darkMode
                       ? "border-gray-700"
                       : "border-gray-300"
-                  }`}
+                    }`}
                 >
                   <i className="fa-brands fa-linkedin-in"></i>
                 </a>
 
                 <a
                   href="#"
-                  className={`w-11 h-11 rounded-full border flex items-center justify-center hover:bg-purple-700 hover:border-purple-700 duration-300 ${
-                    darkMode
+                  className={`w-11 h-11 rounded-full border flex items-center justify-center hover:bg-purple-700 hover:border-purple-700 duration-300 ${darkMode
                       ? "border-gray-700"
                       : "border-gray-300"
-                  }`}
+                    }`}
                 >
                   <i className="fa-brands fa-instagram"></i>
                 </a>
@@ -1478,11 +1423,10 @@ function App() {
             {/* Right - Form */}
 
             <div
-              className={`border rounded-2xl p-8 md:p-10 ${
-                darkMode
+              className={`border rounded-2xl p-8 md:p-10 ${darkMode
                   ? "bg-[#111427] border-gray-700"
                   : "bg-white border-gray-200 shadow-md"
-              }`}
+                }`}
             >
               <h2 className="text-2xl font-bold">
                 Send Me a Message
@@ -1505,11 +1449,10 @@ function App() {
                   <input
                     type="text"
                     placeholder="Enter your name"
-                    className={`w-full mt-2 px-5 py-3 rounded-xl border outline-none focus:border-purple-500 duration-300 ${
-                      darkMode
+                    className={`w-full mt-2 px-5 py-3 rounded-xl border outline-none focus:border-purple-500 duration-300 ${darkMode
                         ? "bg-[#080b16] border-gray-700 text-white placeholder-gray-500"
                         : "bg-gray-50 border-gray-300 text-gray-900 placeholder-gray-400"
-                    }`}
+                      }`}
                   />
                 </div>
 
@@ -1529,11 +1472,10 @@ function App() {
                   <input
                     type="email"
                     placeholder="Enter your email"
-                    className={`w-full mt-2 px-5 py-3 rounded-xl border outline-none focus:border-purple-500 duration-300 ${
-                      darkMode
+                    className={`w-full mt-2 px-5 py-3 rounded-xl border outline-none focus:border-purple-500 duration-300 ${darkMode
                         ? "bg-[#080b16] border-gray-700 text-white placeholder-gray-500"
                         : "bg-gray-50 border-gray-300 text-gray-900 placeholder-gray-400"
-                    }`}
+                      }`}
                   />
                 </div>
 
@@ -1553,11 +1495,10 @@ function App() {
                   <input
                     type="text"
                     placeholder="Enter subject"
-                    className={`w-full mt-2 px-5 py-3 rounded-xl border outline-none focus:border-purple-500 duration-300 ${
-                      darkMode
+                    className={`w-full mt-2 px-5 py-3 rounded-xl border outline-none focus:border-purple-500 duration-300 ${darkMode
                         ? "bg-[#080b16] border-gray-700 text-white placeholder-gray-500"
                         : "bg-gray-50 border-gray-300 text-gray-900 placeholder-gray-400"
-                    }`}
+                      }`}
                   />
                 </div>
 
@@ -1577,11 +1518,10 @@ function App() {
                   <textarea
                     rows="5"
                     placeholder="Write your message..."
-                    className={`w-full mt-2 px-5 py-3 rounded-xl border outline-none focus:border-purple-500 duration-300 resize-none ${
-                      darkMode
+                    className={`w-full mt-2 px-5 py-3 rounded-xl border outline-none focus:border-purple-500 duration-300 resize-none ${darkMode
                         ? "bg-[#080b16] border-gray-700 text-white placeholder-gray-500"
                         : "bg-gray-50 border-gray-300 text-gray-900 placeholder-gray-400"
-                    }`}
+                      }`}
                   ></textarea>
                 </div>
 
@@ -1602,11 +1542,10 @@ function App() {
         {/* ================= FOOTER ================= */}
 
         <footer
-          className={`border-t py-8 text-center ${
-            darkMode
+          className={`border-t py-8 text-center ${darkMode
               ? "border-gray-800"
               : "border-gray-200"
-          }`}
+            }`}
         >
           <p
             className={
