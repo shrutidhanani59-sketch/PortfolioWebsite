@@ -796,8 +796,6 @@ function App() {
                       }`}
                   >
 
-                    <a href="https://github.com/shrutidhanani59-sketch/Headphone"> GitHub </a>
-
                   </button>
                 </div>
               </div>
