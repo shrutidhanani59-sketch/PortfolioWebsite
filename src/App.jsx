@@ -795,7 +795,7 @@ function App() {
                         : "border-gray-300"
                       }`}
                   >
-
+                    GitHub
                   </button>
                 </div>
               </div>
